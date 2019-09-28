@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="strBrowser" value="chrome"/>
+  <test name="Test">
+    <parameter name="strBrowser" value="chrome"/>
+    <classes>
+      <class name="autothon.webui.tests.DriverSuite">
+        <methods>
+          <include name="prameterTestTwo"/>
+        </methods>
+      </class> <!-- autothon.webui.tests.DriverSuite -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->
